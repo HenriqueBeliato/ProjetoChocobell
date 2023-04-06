@@ -95,7 +95,7 @@ iframe{
 /*Home*/
 
 .homeContainer{
-    background-image: url("../img/brigadeiros/centoBrigadeiros.png");
+    background-image: url("..//img/brigadeiros/centoBrigadeiros.png");
     background-position: center;
     background-size: cover;
     padding: 14.3em;
@@ -152,8 +152,8 @@ iframe{
 /*Conheça os produtos*/
 
 #produtos{
-    height: 17200px;
-    background-image: url('..//img/fundoBrigadeiro.png');
+    height: 17250px;
+    background-image: url('..//img/brigadeiros/fundoBrigadeiro.png');
     margin-top: -10px;
 }
 
@@ -216,4 +216,87 @@ iframe{
     font-weight: bold;
     text-align: center;
     text-shadow: 10px 10px 12px deeppink;
+}
+
+/*Contato*/
+
+#contatos{
+    height: 1200px;
+}
+
+
+.entreContato h1{
+    color: aliceblue;
+    font-size: 50px;
+    font-weight: bold;
+    text-shadow: 10px 10px 12px black;
+    background-color: lightpink;
+    text-align: center;
+    margin-top: 10px;
+    height: 70px;
+}
+
+.entreContato p{
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 15px;
+}
+
+.entreContato img{
+    height: 100px;
+    margin-top: 30px;
+}
+
+.negociacao img{
+    height: 30px;
+    margin-right: 5px;
+}
+
+.negociacao p{
+    margin-top: -10px;
+}
+
+.redes h2{
+    color: aliceblue;
+    font-size: 30px;
+    font-weight: bold;
+    text-shadow: 10px 10px 12px black;
+    text-align: center;
+    margin-top: -250px;
+    background-color: lightpink;
+    margin-top: -240px;
+}
+
+.redes ul{
+    display: flex;
+    justify-content: center;
+}
+
+.redes img{
+    display: block;
+    max-width: 100px;
+    margin-top: 25px;
+    padding: 10px;
+}
+
+.redes img:hover{
+    filter: invert(30%);
+    background-color: aliceblue;
+    border-radius: 60px;
+    padding: 10px;
+    transition: .8s;
+}
+
+.register{
+    height: 70px;
+}
+
+.register h2{
+    text-align: center;
+    margin-top: 30px;
+    font-weight: bold;
+    color: black;
+    font-size: 15px;
 }
