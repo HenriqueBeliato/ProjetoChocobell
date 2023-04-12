@@ -127,19 +127,12 @@ iframe{
     font-size: 50px;
     font-weight: bold;
     text-shadow: 10px 10px 12px deeppink;
-    text-align: center;
     margin-top: 20px;
-}
-
-.sobreContainer img{
-    margin-top: -155.5px;
-    opacity: 10%;
-    max-width: 100%;
-    height: 1100px;
+    margin-left: 55px;
 }
 
 .texto{
-    margin-top: -900px;
+    margin-top: 30px;
 }
 
 .sobreContainer p{
@@ -154,7 +147,6 @@ iframe{
 #produtos{
     height: 17250px;
     background-image: url('..//img/brigadeiros/fundoBrigadeiro.png');
-    margin-top: 100px;
 }
 
 .conhecaProdutos h1{
